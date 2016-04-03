@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bioinformatics - Max Planck Institute for Biology of Ageing</title>
+  <title>dippData</title>
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,13 +38,13 @@
   <ul class="sidebar-nav">
     <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
     <li class="sidebar-brand">
-      <a href="#top"  onclick = $("#menu-close").click(); >Bioinformatics</a>
+      <a href="#top"  onclick = $("#menu-close").click(); >dippData</a>
     </li>
     <li>
       <a href="#top" onclick = $("#menu-close").click(); >Home</a>
     </li>
     <li>
-      <a href="#about" onclick = $("#menu-close").click(); >New users</a>
+      <a href="#about" onclick = $("#menu-close").click(); >About</a>
     </li>
     <li>
       <a href="#services" onclick = $("#menu-close").click(); >Services</a>
@@ -53,8 +53,11 @@
       <a href="#portfolio" onclick = $("#menu-close").click(); >People</a>
     </li>
     <li>
+      <a href="#languages" onclick = $("#menu-close").click(); >Languages</a>
+    </li> 
+    <li>
       <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-    </li>
+    </li> 
   </ul>
 </nav>
 
@@ -69,36 +72,11 @@ p.big {
 
 <header id="top" class="header">
   <div class="text-vertical-center">
-    <h1>Bioinformatics Core Facility</h1>
-    <h3>Max Planck Institute for Biology of Ageing</h3>
+    <h1></h1>
+    <h3></h3>
     <br>
     <p class="big">
-    <a href="https://github.com/mpg-age-bioinformatics/AGEpy" class="btn btn-dark btn-lg">AGEpy</a>
-    <a href="https://github.com/mpg-age-bioinformatics" class="btn btn-dark btn-lg">Public Code</a>
-    <a href="#services" class="btn btn-dark btn-lg">Services</a>
-    <a href="#about" class="btn btn-dark btn-lg">Register</a>
-    <a href="https://github.molgen.mpg.de/mpg-age-bioinformatics" class="btn btn-dark btn-lg">Projects</a>
-    <a href="https://github.molgen.mpg.de/issues?utf8=✓&q=is%3Aopen+is%3Aissue+user%3Ampg-age-bioinformatics+" class="btn btn-dark btn-lg">Issues</a>
-    <a href="https://github.molgen.mpg.de/mpg-age-bioinformatics/core/wiki" class="btn btn-dark btn-lg">Wiki</a>
-    <a href="https://datashare.mpcdf.mpg.de" class="btn btn-dark btn-lg">Data</a>
     </p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
   </div>
 </header>
@@ -120,30 +98,28 @@ else { document.getElementById(d).style.display = "none"; }
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>New users</h2>
-        <p class="lead">Press <a target="_blank" href="http://www.mpcdf.mpg.de/userspace/forms/onlineregistrationform">here</a> to register.<br>Once your registration at the <a target="_blank" href="http://www.mpcdf.mpg.de">Max Planck Computing and Data Facility</a> is confirmed you need to activate your cloud storage solution <a target="_blank" href="https://subscriptions.rzg.mpg.de/manage?service_name=collaboration_management&instance_name=main">here</a>. The old project managment platform can be found at <a target="_blank" href="http://bioinformatics.age.mpg.de/">http://bioinformatics.age.mpg.de</a>. More information for new users and about this transition can be found <a href="javascript:ReverseDisplay('uniquename')">here</a>.
-</p>
+        <h2>It's all about you!</h2>
+        <p class="lead">We are focused on your needs.<br>Our goal is to make sure you understand your data in all the ways you set up to.<br>We work together with you to get your data scrutinated and thoroughly analysed in all expected and unexpected ways.<br>
+        <a href="javascript:ReverseDisplay('uniquename')">More info..</a>
+        </p>
       </div>
       <div id="uniquename" class="col-lg-12 text-center" style="display:none;">
-        <p class="lead"><b>Why?</b><br>By making use of the already existing infrastructure of the Max Planck Society we are decreasing our overheads - hardware costs, electrical bill, human resources. This means we have more time to work on what really matters, your projects.
-        <br><br><b>How?</b><br>Our High Performance Computing Cluster is located in-house at the <a target="_blank" href="http://age.mpg.de">Max Planck Institute for Biology of Ageing</a> in Cologne.<br>
-	Our public content is hosted at <a target="_blank" href="https://github.com/">GitHub.com</a>.<br>
-	Our private content is hosted by a GitHub Enterprise solution at the <a target="_blank" href="http://www.molgen.mpg.de/">Max Planck Institute for Molecular Genetics</a> in Berlin.<br>
-	Our data is delivered and backed up at the <a target="_blank" href="http://www.mpcdf.mpg.de">Max Planck Computing and Data Facility</a> in Garching.<br>
-	<b>1. </b>Once you <a target="_blank" href="http://www.mpcdf.mpg.de/userspace/forms/onlineregistrationform">register</a> in Garching we will be asked if you should be granted access. We will confirm your affiliation and you will receive a confirmation email.<br> 
-	<b>2. </b>Once you have <a target="_blank" href="https://subscriptions.rzg.mpg.de/manage?service_name=collaboration_management&instance_name=main">activated</a> your <a target="_blank" href="https://datashare.mpcdf.mpg.de">cloud storage solution</a> we will associate your user name with your project and you will be automatically notified everytime new data is available.<br>
-	<b>3. </b>We will then ask Berlin to send you an user account for the <a target="_blank" href="http://github.molgen.mpg.de/">GitHub Enterprise</a> solution. This is the account you need to access your projects here.
-	<br><br><b>Apps</b><br>All our platforms are now responsive. You can access them from your smartphone or tablet.
-        <br><a target="_blank" href="https://desktop.github.com">GitHub Desktop</a>
-	<br><a target="_blank" href="http://codehub-app.com">CodeHub</a> for iOS.
-        <br><a target="_blank" href="https://owncloud.org/install/#install-clients">ownCloud clients</a>
-	<br><br><b>Help?</b><br>We are in room 1 | AW | 60.
-	<br>bioinformatics@age.mpg.de
-	<br>Tel.: 314	
+        <p class="lead"><b>Analytics that make you succeed</b><br>We are an experienced customer oriented team located in Europe with central offices in Cologne, Germany. More precisely, in Nippes, a modern center of creativity for small and medium startups with the world as environment. We benefit from worldwide interactions that contribute to the high dynamism of our business.<br><br>
+        <b>Data mining</b><br>We cover all aspects: collection, warehousing, data pre-processing, model and inference considerations, interestingness metrics, complexity considerations, post-processing of discovered structures, and visualization. If required we will work together with you for the implemention of online updating.<br><br>
+        <b>Personalized data analysis</b><br>State to the art software dedicated to the analysis of big data is limited to the target analysis and often fails to fully answer particular costumer needs. We treat each project as our own, the data as if it were ours, and the results as if they determined our future. For this, we develop content specific analyses that aim at the full scrutinization of the data.<br><br>
+        <b>Visualization</b><br>From simple to complex, our graphics make you and your partners understand your data. We offer state of the art visualization in open-source based vector graphics format allowing the highest image definition for any media of your choice.<br><br>
+        <b>Money</b><br>Translate your analytics into money. We will go with you all the way untill the end, making sure you get the most value out of your data. Our job only stops once you start to profit.<br><br>
+        <b>Multicultural</b><br>We analyse data in English, German, Portuguese, and Spanish. We don't only understand the language, we understand the culture and we understand the market. We are the perfect partner for your investments abroad.<br><br>
+        <b>We look at the data</b><br>While most modern analysts tend to behave like doctors that forget to look at the patient, we do open eyes analysis, scanning data in creative, full-discovery, biased, and unbiased ways to make sure we test all possibilities. These analyses include statistically un-restricted methods as well as the latest machine learning algorithms and approaches for the identification of patterns and outliers. The results are then added to our analysis portfolio as guideline for further analysis and validation.<br><br>
+        <b>Full disclosure</b><br>Why do we give out our analysis code? First, it is your data, it is your right to know exactly how it was analysed and further discuss it with others. Second, we want to stay dynamic, embracing new and different projects is our major source of dynamism.<br><br>
+        <b>Your data is safe with us</b><br>Depending on your needs and your resources, your data will either be analyzed on your servers, on comercially available secure servers, or on our local machines. Data transfer and access is done over secure channels. Our contracts include data protection. We motivate client-based changes on data protection terms.<br><br>
+        <b>Cloud, on demand computing</b><br>We use commercially available secure cloud computing to run our analysis. In doing so we make sure your costs directly correlate to your data size and analysis needs. Together with this, our supply of freeware based analysis code and pipelines allows our customers to re-run their analysis on old and new data every time they wish to.<br><br>
+        <b>Financial, social, biological</b><br>We analyse all types of data in all types of formats. If we find a problem in your data and we can't analyse it further, you won't have to pay for the undone analysis.<br><br>
+        <b>Happiness</b><br>Your happiness is our first concern. We are a highly motivated, customer oriented team that loves what we do, making sure you also do. Don't hesitate to contact us if you feel like joining us.<br><br>
+        The volume of business data worldwide, across all companies, doubles every 1.2 years, according to estimates. Start analysing your data today.
 	</p>
 	<a href="javascript:ReverseDisplay('uniquename')" class="btn btn-dark">Hide</a> 
       </div>
-
     </div>
 
     <!-- /.row -->
@@ -198,10 +174,10 @@ color: White ;
             <div class="service-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-compass fa-stack-1x text-primary"></i>
+              <i class="fa fa-shield fa-stack-1x text-primary"></i>
             </span>
               <h4>
-                <strong>Software</strong>
+                <strong>Pipelines</strong>
               </h4>
               <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--//p-->
               <a href="javascript:ReverseDisplay('software_more')" class="btn btn-light">Show/Hide</a>
@@ -214,7 +190,7 @@ color: White ;
               <i class="fa fa-cloud fa-stack-1x text-primary"></i>
             </span>
               <h4>
-		<strong>Platforms</strong>
+		<strong>Platform Testing</strong>
 	      </h4>
               <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--//p-->
               <a href="javascript:ReverseDisplay('platforms_more')" class="btn btn-light">Show/Hide</a>
@@ -224,10 +200,10 @@ color: White ;
             <div class="service-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-shield fa-stack-1x text-primary"></i>
+              <i class="fa fa-compass fa-stack-1x text-primary"></i>
             </span>
               <h4>
-                <strong>Infrastructure</strong>
+                <strong>Consulting</strong>
               </h4>
               <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--/p-->
               <a href="javascript:ReverseDisplay('infrastructure_more')" class="btn btn-light">Show/Hide</a>
@@ -241,51 +217,30 @@ color: White ;
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-flask fa-stack-1x text-primary"></i>
 	    </span></div>
-	    <p class="lead">We work <a class="white" target="_blank" href="http://www.agilemanifesto.org">agile</a>!<br>
-	    We work together with the users daily throughout the project.<br>
-	    Our analytics portfolio grows on-demand with the needs of our users.<br>
-	    Non-standard projects are highly welcome!<br><br><br></p>
-              <div class="col-md-3 col-sm-6">
-                <p class="lead"><b>RNAseq</b><br><br>Differential gene expression<br><br>circular RNAs<br><br>Editing<br><br>Methylation<br><br>Variant Calling<br><br>Annotation<br><br>Gene Set Enrichment Analysis<br><br>Automated DAVID queries</p>
-              </div>
-	      <div class="col-md-3 col-sm-6">
-		<p class="lead"><b>DNAseq</b><br><br>Exome Sequencing<br><br>Variant Calling<br><br>Duplex Sequencing<br><br>Methylation</p>
-	      </div>
-	      <div class="col-md-3 col-sm-6">
-	        <p class="lead"><b>NGS (others)</b><br><br>Ribosome footprint profiling<br><br>Manipulation of fastq and SAM files</p>
-	      </div>
-              <div class="col-md-3 col-sm-6">
-                <p class="lead"><b>Others</b><br><br>Motif enrichment analysis<br><br>High throughput primer design<br><br>High Throughput Screenings<br><br></p>
-              </div>
-            </p>
-          <br><br>
+	    <p class="lead"><b>Full discovery</b><br>Once you ask us to analyse your data we will fully deep our selfs into it. Multiple analysis and tests will be run. We will turn your data upside down, spin it, compact it, expand it, analyse the analysis, create new questions and hypothesis and start all over from the begining.
+ 
+            <br><br><b>Custom made</b><br>While many systems offer the possibily of allround data analysis they mostly fail to out-perform for individual projects. Our analyses are project based and are developed based on your specific needs and data.
+ 
+            <br><br><b>Reproducible and traceable</b><br>All our analyses will be run using currrent computing languages like R and Python. You will be given all the code as well as the tables of results. <br>
+        </p>
           </div>
 
           <div id="software_more" class="col-lg-12 text-center" style="display:none;">
-            <p class="lead"><h2><b>Software</b></h2><br>
+            <p class="lead"><h2><b>Pipelines</b></h2><br>
               <div class="service-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-compass fa-stack-1x text-primary"></i>
-	    </span></div>
-	    <p class="lead">We develop software on-demand working either on the further development of existing tools or on the build of modules that can be easely integrated with other tools for the generation of analysis pipelines.<br>
- 	    More than 90% of the time most of our work is based on pre-existing software.<br><br>
-    	    </p>
-            <p class="lead"><b>Examples</b><br><br>
-	    <a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/AGEpy">AGEpy</a>
-            <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/Duplex-Sequencing">Duplex Sequencing</a>
-	    <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/htseq-tools/blob/master/aDiff">aDiff</a>
-            <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/htseq-tools">htseq-tools</a>
-	    <br><br>Software for data integration of HT Screenings
-	    <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/slurm-tools">slurm-tools</a>
-	    <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/slurm-monitor">slurm-monitor</a>
-	    <br><br>
-	    </p>
-            </p>
-          </div>
+	            </span></div>
+	            <p class="lead">If you already know what you want but need an automated system we will generate one for you.
+                <br><br><b>Freeware based</b><br>Our pipelines are freeware based so that you don't have to pay extra. 
+                <br><br><b>Cloud computing</b><br>If your data demands large computing power we will help you creating on demand cloud based solutions for your analysis.
+                <br><br><b>Mantainance</b><br>If you have got either an on demand pipeline or a full data analysis from us and need to have it technically or analytically updated we will do it for you.
+                </p>
+                </div>
 
           <div id="platforms_more" class="col-lg-12 text-center" style="display:none;">
-            <p class="lead"><h2><b>Platforms</b></h2><br>
+            <p class="lead"><h2><b>Platform Testing</b></h2><br>
               <div class="service-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
@@ -293,25 +248,24 @@ color: White ;
        	      </span>
 	    </div>
 
-	    <p class="lead">We mantain and support a wide variety of platforms and work together with IT service partners on the delivery and integration of external platorms at our institution.
-	    <br><br><br><b>Examples</b><br><br>Redmine<br><br>GitLab<br><br>RStudio server (with HPC integration)<br><br>Slurm<br><br>Environment Modules Project<br><br>Databases (eg. indexed Ensembl genomes, motifs databases)<br><br>Galaxy (internal / now at the MPCDF)<br><br>ownCloud (IT / now at the MPCDF)<br><br>GitHub Enterprise (MPI-Molecular Genetics)</p>
-	    <br><br>
-
-            </p>
+	            <p class="lead"><b>Data collection</b><br>You are ready to collect your data but are not sure things are runing fine? Project related data mining will be done to collect test data. Test data will be inputed, output controled, and your tables checked for integrity. This will be done with both manual and automated curation, depending on the analysis step and on your needs.
+                <br><br><b>Analytics platforms</b><br>You have a runing platform for data analysis but things are not making sense or you wanna make sure it is bugs free before you present it to your customers? No problem, we will test it for you. Independent project related data mining will be done and used to assess your platform.
+                <br><br>We test all types of platforms.
+                </p>
           </div>
 
           <div id="infrastructure_more" class="col-lg-12 text-center" style="display:none;">
-            <p class="lead"><b>Infrastructure</b><br>
+            <p class="lead"><b>Consulting</b><br>
             <div class="service-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-shield fa-stack-1x text-primary"></i>
             </span>
  	    </div>
-            <p class="lead">Our day is spent on the cluster.<br><br>
-	    Working tightly with the IT department, and strongly supported by our dedicatd systems administrator we assure that no project is limited by computational power or any other type of IT infrastructure.<br><br>
-            Our HPC cluster nodes are supported by a distributed parallel file system (BeeGFS) running on an infiniband network. Nodes have a minimum of 40 processors and 256GB of memory.<br><br>
-            We make sure that 80% of jobs get started at their respective maximum performance within 20 minutes of submission and 98% of jobs within 3 hours.<br><br>
+            <p class="lead"><b>Ask the right question</b><br>Hypothesis and question driven data collection is the key to great findings. We will help you stratify your questions so that no field is missing once you get to analyse your data.
+<br><br><b>Pre-analysis</b><br>Before we analyse your data we scan it and evaluate it technically and creatively. A preview of a full analysis will be shown in delicious formats.
+<br><br><b>Costs estimation</b><br>Our work is flexible, on demand, and without physical or computing limitations. Quotes for full data analysis will be given at this stage.
+
 	    </p>
             </p>
           </div>
@@ -330,10 +284,9 @@ color: White ;
 
   <aside class="callout">
   <div class="text-vertical-center">
-    <h1>Teaching and hands-on-support</h1>
-    <p class="lead">We have a lean approach to teaching. Biologists don't do rocket science and rocket scientists don't do biology.<br>
-    We provide teaching and support tailored to the user's needs. We have an open door policy and guest terminals available to any user that wishes to run his/her computational work with us.
-    <br><h2>[bit] Sessions - every Friday from 09:30 to 11:30 in Meeting Room 1 (First Floor).</h2>
+    <h1>big Data analysis and<br>data consulting services</h1>
+    <p class="lead"><h2>Finding the needle in the haystack:<br>
+while others focus on cleaning the hay, we find the needle.</h2>
     </p>
   </div>
 </aside>
@@ -361,74 +314,22 @@ else { document.getElementById(d).style.display = "none"; }
         <div class="row">
           <div class="col-md-6">
             <div class="portfolio-item">
-	      <a href="mailto:jorge.boucas@age.mpg.de?Subject=from%20website" target="_top">
-                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" title="jorge.boucas@age.mpg.de">
-		<div class="col-lg-12 text-center"><p>Jorge Boucas, Ph.D. | Head of Bioinformatics | Tel.: 312</p></div>
+	      <a href="mailto:mail@jorgeboucas.com?Subject=from%20website" target="_top">
+                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" title="mail@jorgeboucas.com">
             </a></div>
           </div>
+
           <div class="col-md-6">
             <div class="portfolio-item">
-              <a href="mailto:sven.templer@age.mpg.de?Subject=from%20website" target="_top">
-                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg" title="sven.templer@age.mpg.de">
-		<div class="col-lg-12 text-center"><p>Sven Templer | Analyst & Programmer | Tel.: 325</p></div>
+		<div class="col-lg-12 text-center"><p><br><b>Jorge Bouças  |  Founder  |  +49-178-183-5002  |  mail@jorgeboucas.com</b><br><br>
+ 
+Jorge first started analyzing data in 2003 at Reckitt Benkiser identifying patterns on supply chain. At the same time Jorge worked as controler for Esso identifying failures on Esso's Portuguese registry of gas cylinders. Jorge has a Ph.D. in genetics and more than 10 years of experience on a wide variety of state of the art software for hypothesis generation, data analysis, and visualization. His creativity earned him a patent at the age of 26. He is an author in several peer reviewed scientific publications. 
+Jorge is proficient in English, German, Portuguese, and Spanish. Jorge founded dippData in 2014.
+
+</p></div>
               </a>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="mailto:kamel.jabbari@age.mpg.de?Subject=from%20website" target="_top">
-                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" title="kamel.jabbari@age.mpg.de">
-              	<div class="col-lg-12 text-center"><p>Kamel Jabbari, Ph.D. | Analyst | Tel.: 313</p></div>
-	      </a>
-	    </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="mailto:bernd.wozny@age.mpg.de?Subject=from%20website" target="_top">
-                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" title="bernd.wozny@age.mpg.de">
-              	<div class="col-lg-12 text-center"><p>Bernd Wozny | Systems Administrator | Tel.: 314</p></div>
-	      </a>
-	    </div>
-          </div>
-        </div>
-        <!-- /.row (nested) -->
-	<a href="javascript:ReverseDisplay('oldguys')" class="btn btn-dark">Show/hide past members</a>
- 	<a href="javascript:ReverseDisplay('guests')" class="btn btn-dark">Show/hide guests</a>
-	<br>
-	<br>
-	<div id="oldguys" style="display:none;">
-	  <div class="row">
-            <div class="col-md-6">
-              <div class="portfolio-item">
-                <a href="#">
-                  <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
-                  <div class="col-lg-12 text-center"><p>Tobias Jakobi | Developer</p></div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <a href="javascript:ReverseDisplay('oldguys')" class="btn btn-dark">Show/hide past members</a>
-          <a href="javascript:ReverseDisplay('guests')" class="btn btn-dark">Show/hide guests</a>
-	</div>
-
-        <div id="guests" style="display:none;">
-          <div class="row">
-          <div class="col-lg-12 text-center"> 
-	  <p class="lead"><br>Qianhui YU, Comparative Biology Group, CAS-MPG Partner Institute for Computational Biology, Shanghai, China.<br>
-          Research Bioinformatician associated with Xiangru's Xu Research Group. 
-	  <br><br>Sandra Sobonocanec Ph.D., Laboratory for Reactive Radicals, Ruder Boskovic Institute, Zagreb, Croatia.<br>
-          Independent guest.
-	  <br><br>Zeljka Safranko Ph.D., Laboratory for Reactive Radicals, Ruder Boskovic Institute, Zagreb, Croatia.<br>
-	  Independent guest.
-	  <br><br>Annthomy Gilles, student, MSc in Bioinformatics University of Rouen, France.<br> 
-	  Master student.<br></p> 
-	</div>
-        <a href="javascript:ReverseDisplay('oldguys')" class="btn btn-dark">Show/hide past members</a>
-        <a href="javascript:ReverseDisplay('guests')" class="btn btn-dark">Show/hide guests</a>
-      </div>
-
-
-
 
 
       </div>
@@ -439,17 +340,23 @@ else { document.getElementById(d).style.display = "none"; }
   <!-- /.container -->
 </section>
 
-  <aside class="call-to-action bg-primary">
+  <section id="languages">
+<aside class="languages bg-primary">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h3>Depending on the nature of our code you might find it in different places:</h3>
-        <a href="https://github.molgen.mpg.de/mpg-age-bioinformatics" class="btn btn-lg btn-light">GitHub.Enterprise</a>
-        <a href="https://github.com/mpg-age-bioinformatics" class="btn btn-lg btn-dark">GitHub.com</a>
+        <h1>multilingual<br><br>english | german | portuguese | spanish</h1><br><br>
+        <h3>We are global. We cover a large number of languages and will work together with you to bring your language into our portfolio. 
+ 
+        <br><br>We don't only understand the language, we understand the culture and we understand the market.
+ 
+        <br><br>We are the perfect partner for your investments abroad. 
+        </h3>
       </div>
     </div>
   </div>
 </aside>
+</section>
 
   <section id="map" class="map">
   <iframe id="map_iframe"
@@ -459,7 +366,7 @@ else { document.getElementById(d).style.display = "none"; }
     scrolling="no"
     marginheight="0"
     marginwidth="0"
-    src="https://maps.google.com/maps/embed/v1/place?key=AIzaSyA_rtAAV0VcTYHUy6SlOwCnbL3BhrX1SKs&q=Max Planck Institute for Biology of Ageing,Joseph-Stelzmann-Str. 9b,D-50931 Cologne, Germany,"
+    src="https://maps.google.com/maps/embed/v1/place?key=AIzaSyA_rtAAV0VcTYHUy6SlOwCnbL3BhrX1SKs&q=Niehler Str. 33,D-50733 Cologne, Germany,"
     allowfullscreen>
   </iframe>
   <br>
@@ -470,22 +377,10 @@ else { document.getElementById(d).style.display = "none"; }
     scrolling="no"
     marginheight="0"
     marginwidth="0"
-    src="https://maps.google.com/maps/embed/v1/place?key=AIzaSyA_rtAAV0VcTYHUy6SlOwCnbL3BhrX1SKs&q=Max Planck Institute for Biology of Ageing,Joseph-Stelzmann-Str. 9b,D-50931 Cologne, Germany,"
+    src="https://maps.google.com/maps/embed/v1/place?key=AIzaSyA_rtAAV0VcTYHUy6SlOwCnbL3BhrX1SKs&q=Niehler Str. 33,D-50733 Cologne, Germany,"
     allowfullscreen>
   </small>
 </section>
-  <aside class="call-to-action bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3>Jobs & Hosting</h3>
-        <p class="lead">We are always looking for interesting people. Don't hesitate to apply if you would like to work with us.<br>We are also happy to host guests either associated with research groups or independently.</p>
-        <a href="mailto:jorge.boucas@age.mpg.de?Subject=Application" class="btn btn-lg btn-dark">Apply</a>
-      </div>
-    </div>
-  </div>
-</aside>
-
   <script type="text/javascript" language="JavaScript"><!--
 function HideContent(d) {
 document.getElementById(d).style.display = "none";
@@ -499,25 +394,23 @@ else { document.getElementById(d).style.display = "none"; }
 }
 //--></script>
 
-
+<section id="contact">
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>Bioinformatics Core Facility</strong>
+        <h4><strong>Jorge Boucas</strong>
         </h4>
         <p>
           
-          Max Planck Institute for Biology of Ageing<br>
+          Niehler Str. 33<br>
           
-          Joseph-Stelzmann-Str. 9b<br>
-          
-          D-50931 Cologne, Germany<br>
+          D-50733 Cologne, Germany<br>
           
         </p>
         <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> +49 (0)221 37970-0</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:bioinformatics@age.mpg.de">bioinformatics@age.mpg.de</a>
+          <li><i class="fa fa-phone fa-fw"></i> +49 (0)178 183 5002</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:mail@jorgeboucas.om">mail@jorgeboucas.om</a>
           </li>
         </ul>
         <br>
@@ -525,11 +418,11 @@ else { document.getElementById(d).style.display = "none"; }
           <!--li-->
             <!--a href="https://facebook.com/"><i class="fa fa-facebook fa-fw fa-3x"--></i--><!--/a-->
           <!--/li-->
-          <!--li-->
-            <!--a href="https://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"--><!--/i--><!--/a-->
-          <!--/li-->
           <li>
-            <a href="https://github.com/mpg-age-bioinformatics"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a href="https://twitter.com/jorgeboucas"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/jorgeboucas"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
         </ul>
         <hr class="small">
@@ -541,75 +434,49 @@ else { document.getElementById(d).style.display = "none"; }
     </div>
 	<div id="imprint" class="col-lg-12 text-center" style="display:none;">
 	<p>
-<br>
-The following provides mandatory data concerning the provider of this website, obligations with regard to data protection, as well as other important legal references involving the Bioinformatics Core Facility Internet web site of the Max Planck Institute for Biology of Ageing (mpg-age-bioinformatics.github.io) as required by German law.
-<br><br>
- 
 
-Provider
 <br>
-The provider of this Internet site within the legal meaning of the term is the registered association Max Planck Society for the Advancement of Science e.V.
-<br><br>
-Address
-<br>
-Max-Planck-Gesellschaft zur Förderung der Wissenschaften e.V.
-<br>Hofgartenstrasse 8
-<br>D-80539 Munich
-<br>Phone: +49 89 2108-0
-<br>Internet: www.mpg.de
-<br><br>
-Register of Societies and Associations
-<br>
-The Max Planck Society is registered in the Official Register of Societies and Associations at Berlin-Charlottenburg Local Court under the register number VR 13378 B.
-<br><br>
-Representatives
-<br>
-The Max Planck Society is legally represented by its Board of Directors which, in turn, is represented by the President of the Society, Prof. Dr. Martin Stratmann and by Secretary General Dr. Ludwig Kronthaler.
-<br><br>
-Value Added Tax Identification Number
-<br>
-The value added tax identification number of the Max Planck Society is DE 129517720.
-<br><br>
-Editors
-<br>
-Responsible editor for the contents of the website mpg-age-bioinformatics.github.com with regard to media law:
-<br>
-Dr. Jorge Boucas
-<br>Max Planck Institute for Biology of Ageing
-<br>Joseph-Stelzmann-Str. 9b
-<br>50931 Cologne, Germany
-<br>jorge.boucas(at)age.mpg.de 
-<br><br>
+<h1>Impressum</h1>
+<h2>Angaben gemäß § 5 TMG:</h2>
+<p>Jorge Boucas<br />
+big data analysis<br />
+Niehler Str. 33<br />
+50733 Köln
+</p>
+<h2>Kontakt:</h2>
+<tr>
+<td>Telefon:</td>
+<td>+49 (0)178 183 5002</td></tr>
+<tr><td><br>E-Mail:</td>
+<td>mail@jorgeboucas.com</td>
+</tr>
+<h2>Hinweis auf EU-Streitschlichtung</h2>
+<p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="http://ec.europa.eu/consumers/odr">http://ec.europa.eu/consumers/odr</a><br /> Unsere E-Mail-Adresse finden sie oben im Impressum. <p> </p>
+<p> </p>
 
-Technically responsible (Webmaster)
-<br>
-Technically responsible for the github website of the Bioinformatics Core Facility Max Planck Institute for Biology of Ageing:
-<br>
-Jorge Boucas 
-<br>jorge.boucas(at)age.mpg.de
-<br><br>
+<h1>Haftungsausschluss (Disclaimer)</h1>
 
-Legal Structure
-<br>
-The Max Planck Society is a non-profit research facility which is organized as a registered association. All of the institutes and facilities of the Max Planck Society are largely autonomous in terms of organization and research, but as a rule have no legal capacity of their own.
-<br><br>
-Foreign Language Pages
-<br>
-To the extent that parts of this Internet site are offered in languages other than German, this represents a service exclusively for staff and guests of the Max Planck Society who are not proficient in German.
-<br><br>
-Liability for Contents of Online Information
-<br>
-As the provider of contents in accordance with Section 7 Paragraph 1 of the Tele-Media Law, the Max Planck Society shall be responsible for any contents which it makes available for use in accordance with general legal provisions. The Max Planck Society makes every effort to provide timely and accurate information on this Web site. Nevertheless, errors and inaccuracies cannot be completely ruled out. Therefore, the Max Planck Society does not assume any liability for the relevance, accuracy, completeness or quality of the information provided. The Max Planck Society shall not be liable for damage of a tangible or intangible nature caused directly or indirectly through the use or failure to use the information offered and/or through the use of faulty or incomplete information unless it is verifiably culpable of intent or gross negligence. The same shall apply to any downloadable software available free of charge. The Max Planck Society reserves the right to modify, supplement, or delete any or all of the information offered on its Internet site, or to temporarily or permanently cease publication thereof without prior and separate notification.
-<br><br>
-Links to Internet Sites of Third Parties
-<br>
-This Internet site includes links to external pages. These external links are designated appropriately. The respective provider shall be responsible for the contents of any linked external pages. In establishing the initial link, the Max Planck Society has reviewed the respective external content in order to determine whether such link entailed possible civil or criminal responsibility. However, a constant review of linked external pages is unreasonable without concrete reason to believe that a violation of the law may be involved. If the Max Planck Society determines such or it is pointed out by others that an external offer to which it is connected via a link entails civil or criminal responsibility, then the Max Planck Society will immediately eliminate any link to this offer. The Max Planck Society expressly dissociates itself from such contents.
-<br><br>
-	</p>
+<p><strong>Haftung für Inhalte</strong></p> <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p> <p><strong>Haftung für Links</strong></p> <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p> <p><strong>Urheberrecht</strong></p> <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p><p> </p>
+
+<br /><h1>Datenschutzerklärung:</h1>
+
+<p><strong>Datenschutz</strong></p> <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p> <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.</p> <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p><p> </p>
+<p><strong>Datenschutzerklärung für die Nutzung von etracker</strong></p> <p>Unsere Webseite nutzt den Analysedienst etracker. Anbieter ist die etracker GmbH, Erste Brunnenstraße 1 20459 Hamburg Germany. <br />Aus den Daten können unter einem Pseudonym Nutzungsprofile erstellt werden. Dazu können Cookies eingesetzt werden. Bei Cookies handelt es sich um kleine Textdateien, die lokal im Zwischenspeicher Ihres Internet-Browsers gespeichert werden. Die Cookies ermöglichen es, Ihren Browser wieder zu erkennen. Die mit den etracker-Technologien erhobenen Daten werden ohne die gesondert erteilte Zustimmung des Betroffenen nicht genutzt, Besucher unserer Website persönlich zu identifizieren und werden nicht mit personenbezogenen Daten über den Träger des Pseudonyms zusammengeführt.</p> <p>Der Datenerhebung und -speicherung können Sie jederzeit mit Wirkung für die Zukunft widersprechen. Um einer Datenerhebung und -speicherung Ihrer Besucherdaten für die Zukunft zu widersprechen, können Sie unter nachfolgendem Link ein Opt-Out-Cookie von etracker beziehen, dieser bewirkt, dass zukünftig keine Besucherdaten Ihres Browsers bei etracker erhoben und gespeichert werden: <a href="http://www.etracker.de/privacy?et=V23Jbb">http://www.etracker.de/privacy?et=V23Jbb</a></p> <p>Dadurch wird ein Opt-Out-Cookie mit dem Namen "cntcookie" von etracker gesetzt. Bitte löschen Sie diesen Cookie nicht, solange Sie Ihren Widerspruch aufrecht erhalten möchten. Weitere Informationen finden Sie in den Datenschutzbestimmungen von etracker: <a href="http://www.etracker.com/de/datenschutz.html">http://www.etracker.com/de/datenschutz.html</a></p><p> </p>
+
+<p><strong>Datenschutzerklärung für die Nutzung von LinkedIn</strong></p> <p>Unsere Website nutzt Funktionen des Netzwerks LinkedIn. Anbieter ist die LinkedIn Corporation, 2029 Stierlin Court, Mountain View, CA 94043, USA. Bei jedem Abruf einer unserer Seiten, die Funktionen von LinkedIn enthält, wird eine Verbindung zu Servern von LinkedIn aufbaut. LinkedIn wird darüber informiert, dass Sie unsere Internetseiten mit Ihrer IP-Adresse besucht haben. Wenn Sie den "Recommend-Button" von LinkedIn anklicken und in Ihrem Account bei LinkedIn eingeloggt sind, ist es LinkedIn möglich, Ihren Besuch auf unserer Internetseite Ihnen und Ihrem Benutzerkonto zuzuordnen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch LinkedIn haben.</p> <p>Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von LinkedIn unter: <a href="https://www.linkedin.com/legal/privacy-policy">https://www.linkedin.com/legal/privacy-policy</a></p><p>
+ </p><p><strong>Datenschutzerklärung für die Nutzung von Twitter</strong></p> <p>Auf unseren Seiten sind Funktionen des Dienstes Twitter eingebunden. Diese Funktionen werden angeboten durch die Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA. Durch das Benutzen von Twitter und der Funktion "Re-Tweet" werden die von Ihnen besuchten Webseiten mit Ihrem Twitter-Account verknüpft und anderen Nutzern bekannt gegeben. Dabei werden auch Daten an Twitter übertragen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Twitter erhalten. Weitere Informationen hierzu finden Sie in der Datenschutzerklärung von Twitter unter <a href="http://twitter.com/privacy">http://twitter.com/privacy</a>.</p> <p>Ihre Datenschutzeinstellungen bei Twitter können Sie in den Konto-Einstellungen unter <a href="http://twitter.com/account/settings">http://twitter.com/account/settings</a> ändern.</p><p> </p>
+
+<p><strong>Auskunft, Löschung, Sperrung</strong></p> <p>Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.</p> <p> </p>
+<p><strong>Cookies</strong></p> <p>Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.</p> <p>Die meisten der von uns verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.</p> <p>Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browser aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.</p><p> </p>
+<p><strong>Server-Log-Files</strong></p> <p>Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log Files, die Ihr Browser automatisch an uns übermittelt. Dies sind:</p> <ul> <li>Browsertyp/ Browserversion</li> <li>verwendetes Betriebssystem</li> <li>Referrer URL</li> <li>Hostname des zugreifenden Rechners</li> <li>Uhrzeit der Serveranfrage</li> </ul> <p><br />Diese Daten sind nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Wir behalten uns vor, diese Daten nachträglich zu prüfen, wenn uns ko
+nkrete Anhaltspunkte für eine rechtswidrige Nutzung bekannt werden.</p><p> </p>
+
+</p>
 	</div>	
    
   </div>
 </footer>
+</section>
 
   <!-- jQuery -->
 <script src="js/jquery.js"></script>

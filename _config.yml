@@ -1,27 +1,24 @@
 # Site settings
-title: Bioinformatics Core Facility
-email: bioinformatics@age.mpg.de
+title: dippData
+email: mail@jorgeboucas.com
 description: > # this means to ignore newlines until "baseurl:"
-    Bioinformatics Core Facility
-    Max Planck Institute for Biology of Ageing
-    Joseph-Stelzmann-Str. 9b
-    D-50931 Cologne, Germany
+    dippData
+    big Data analysis
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner: Bioinformatics Core Facility
-email: bioinformatics@age.mpg.de
+owner: Jorge Boucas
+email: mail@jorgeboucas.om
 facebook_username:
-twitter_username:
-github_username: mpg-age-bioinformatics
+twitter_username: jorgeboucas
+github_username: jorgeboucas
 address:
-  - line: Max Planck Institute for Biology of Ageing 
-  - line: Joseph-Stelzmann-Str. 9b
-  - line: D-50931 Cologne, Germany
+  - line: Niehler Str. 33 
+  - line: D-50733 Cologne, Germany
   # Feel free to add more lines here 
-telephone: +49 (0)221 37970-0
-copyright:
+telephone: +49 (0)178 183 5002
+copyright: Jorge Boucas
 
 # API settings
 google_api_key: AIzaSyA_rtAAV0VcTYHUy6SlOwCnbL3BhrX1SKs
